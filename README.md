@@ -5,7 +5,7 @@ Proyecto Videojuegos
 Es un blog que contiene noticias reales y actuales sobre Videojuegos.
 
 ### Instalación 🔧
-
+Se require un navegador compatible con HTML 5.
 ## Construido con 🛠️
 GitHub
 VisualStudio 
@@ -24,7 +24,7 @@ Puedes encontrar las versiones disponibles en el repositorio del proyecto.
 ## Autores ✒️
     * **Estibaliz Cortés Gacía** - *vamos actualizando lo q hacemos* (https://github.com/estibalizcortes)
     * **David Galán Valle** - *vamos actualizando lo q hacemos*  (tu direccion de github)
-    * **Jorge Carrasco Arnaz ** - *vamos actualizando lo q hacemos* (tu direccion de github)
+    * **Jorge Carrasco Arnaz ** - *vamos actualizando lo q hacemos* (https://github.com/JorCarArn)
 
 ## Licencia 📄
 
