@@ -23,7 +23,7 @@ Puedes encontrar las versiones disponibles en el repositorio del proyecto.
 
 ## Autores ✒️
     * **Estibaliz Cortés Gacía** - *vamos actualizando lo q hacemos* (https://github.com/estibalizcortes)
-    * **David Galán Valle** - *vamos actualizando lo q hacemos*  (tu direccion de github)
+    * **David Galán Valle** - *vamos actualizando lo q hacemos*  (https://github.com/Daviid81)
     * **Jorge Carrasco Arnaz ** - *vamos actualizando lo q hacemos* (https://github.com/JorCarArn)
 
 ## Licencia 📄
