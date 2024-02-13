@@ -9,6 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="all">
     <link rel="icon" href="./icons/videojuegos.ico" type="image/x-icon">
+    <link href="./css/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
     <header id="main-header" class="main-header">
@@ -24,21 +25,82 @@
         </div>
     </header>
     
-    <!--esto para un futuro
-    <nav id="main-nav" class="main-nav">
-        <div style="text-align: center;">
-        <table>
-            <tr>
-                <th><a href="noticias.html">Noticias</a></th>
-                <th><a href="análisis.html">Análisis</a></th>
-                <th><a href="artículos.html">Artículos</a></th>
-                <th><a href="reviews.html">Reviews</a></th>
-                <th><a href="contacto.html">Contacto</a></th>
-            </tr>
-        </table>
-        </div>
+    <nav>
+        <a class="button" href="./index.html">Inicio</a>
+        <a class="button" href="#seccionPlataformas">Plataformas</a>
+        <a class="button" href="#seccionVideojuegos">Videojuegos</a>
+        <a class="button" href="./articles/formulario.html">Formulario</a>
     </nav>
-    -->
+    
+    <main>
+        <section class="Videojuegos">
+            <a id="seccionVideojuegos"></a>
+            <div class="categoria">
+                <h1>Noticias de Videojuegos</h1>
+            </div>
+            <article>
+                <div class="imagenPokemon">
+                    <a href="articles/NoticiaPokemonPalword.html"> 
+                        <picture style="display:flex;justify-content: center;">
+                            <source media="(max-width: 799px)" srcset="images/Pokemon400px.jpg">
+                            <source media="(min-width: 800px)" srcset="images/Pokemon800px.jpg">
+                            <img src="images/Pokemon800px.jpg" alt="Diferencia entre Pokémon y Palworld">
+                        </picture>
+                    </a> 
+                </div> 
+                <div class="NoticiaPokemonPalword">
+                    <h2>
+                        <a href="articles/NoticiaPokemonPalword.html" style="text-decoration: none; color: black;">Los creadores de <b><cite>Pokémon</cite></b> se enfrentan a <b><q>Palworld</q></b> ante un posible plagio
+                        </a>
+                    </h2>  
+                    <div class="descripcionPokemon">
+                        La noticia trata sobre la controversia entre los creadores</a> de <a href="https://www.pocketpair.jp/palworld">Palworld</a> y los creadores de <a href="https://www.pokemon.com/el">Pokémon</a> debido a posibles similitudes y plagio.</strong>
+                    </div>  
+                    <a href="./articles/NoticiaPokemonPalword.html" style="text-decoration: none; color: blue;">
+                        <p style="text-align: center;">Leer más...</p>
+                    </a>                  
+                </div>
+            </article>
+            <article>
+                <div class="imagenTombRaider">
+                    <a href="articles/NoticiaTombRaider.html"> 
+                        <picture style="display:flex;justify-content: center;">
+                            <source media="(max-width: 799px)" srcset="images/TombRaider400px.jpg">
+                            <source media="(min-width: 800px)" srcset="images/TombRaider800px.jpg">
+                            <img src="images/TombRaider800px.jpg" alt="Imagen de Tomb Raider">
+                        </picture>
+                    </a> 
+                </div> 
+                <div class="NoticiaTombRaider">
+                    <h2>
+                        <a href="articles/NoticiaTombRaider.html" style="text-decoration: none; color: black;">
+                            Comparativa gráfica <cite>Tomb Raider 1-3 Resmastered</cite> VS <cite>el original</cite>: Así ha cambiado la trilogía inicial
+                        </a>
+                    </h2>  
+                    <div class="descripcionTombRaider">
+                        Las primeras aventuras de <cite>Lara Croft</cite> vuelven con una remasterización que mejora texturas, iluminación y modelados;
+                        aunque también podrás elegir el aspecto antiguo.
+                        La noticia trata sobre la controversia entre los creadores</a> de <a href="https://www.pocketpair.jp/palworld">Palworld</a> y los creadores de <a href="https://www.pokemon.com/el">Pokémon</a> debido a posibles similitudes y plagio.</strong>
+                    </div>  
+                    <a href="./articles/NoticiaTombRaider.html" style="text-decoration: none; color: blue;">
+                        <p style="text-align: center;">Leer más...</p>
+                    </a>                  
+                </div>
+            </article>
+            <!--
+            <article>
+                aqui falta otra notica de aventura
+            </article>
+            -->
+        </section>
+
+        <section class="Plataformas">
+        </section>
+        
+        <section class="Estrategia">
+        </section>
+    
+<!--  ESTO HAY QUE ORDENARLO
     <div class="ULTIMAS NOTICIAS" id="ULTIMAS NOTICIAS" style="text-align:center;">
         
         <div class="NoticiaPlaystation" id="NoticiaPlaystation">
@@ -60,28 +122,6 @@
                 <p style="text-align: center;">Leer más...</p>
             </a>
         </div>
-
-        <div class="NoticiaPokemonPalword" id="NoticiaPokemonPalword">
-            <a href="articles/NoticiaPokemonPalword.html" style="text-decoration: none; color: black;"> <h2>Los creadores de <b><cite>Pokémon</cite></b> se enfrentan a <b><q>Palworld</q></b> ante un posible plagio</h2>  </a>
-            <a href="articles/NoticiaPokemonPalword.html"> 
-                <figure>
-                    <picture style="display:flex;justify-content: center;">
-                        <source media="(max-width: 799px)" srcset="images/Pokemon400px.jpg">
-                        <source media="(min-width: 800px)" srcset="images/Pokemon800px.jpg">
-                        <img src="images/Pokemon800px.jpg" alt="Diferencia entre Pokémon y Palworld">
-                    </picture>
-                </figure>
-            </a>          
-            <h3><b>Descripción:</b></h3>
-            <p><strong> <a href="articles/NoticiaPokemonPalword.html" style="text-decoration: none; color: black;">La noticia trata sobre la controversia entre los creadores</a>
-            de <a href="https://www.pocketpair.jp/palworld">Palworld</a> y los creadores 
-            de <a href="https://www.pokemon.com/el">Pokémon</a> debido a posibles similitudes 
-            y plagio.</strong></p>
-            <a href="./articles/NoticiaPokemonPalword.html" style="text-decoration: none; color: blue;">
-                <p style="text-align: center;">Leer más...</p>
-            </a>     
-        </div>
-        
         <div class="NoticiaSteam" id="NoticiaSteam">
             <a href="articles/NoticiaSteam.html" style="text-decoration: none; color: black;"><h2>Steam abandona oficialmente las versiones más antiguas de Windows</h2></a>
             <a href="articles/NoticiaSteam.html"> 
@@ -101,14 +141,17 @@
             <a href="./articles/NoticiaSteam.html" style="text-decoration: none; color: blue;"><p style="text-align: center;">Leer más...</p></a>
         </div>
     </div>
-    <footer style="background-color: lightgray; text-align: center; padding: 10px;">
-        <p>
-            Alumno1: Jorge Carrasco Arnaz<br>
-            Alumno2: David Galán Valle<br>
-            Alumno3: Estíbaliz Cortés García<br>
-            Asignatura: Lenguajes de marcas<br>
-            Curso: 2023-2024
-        </p>
-    </footer>
+
+-->
+        <footer style="background-color: lightgray; text-align: center; padding: 10px;">
+            <div class="footertext">
+                Alumno1: Jorge Carrasco Arnaz<br>
+                Alumno2: David Galán Valle<br>
+                Alumno3: Estíbaliz Cortés García<br>
+                Asignatura: Lenguajes de marcas<br>
+                Curso: 2023-2024
+            </div>
+        </footer>
+    </main>
     </body>
 </html>
