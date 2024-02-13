@@ -15,13 +15,13 @@
 </head>
 
 <body>
-    <div>
-        <h1 style="text-align:center"><strong>Los creadores de <b><q>Pokémon</q></b> se enfrentan
+    <div id="main-content" class="main-content"> 
+        <h1 style="text-align: center"><strong>Los creadores de <b><q>Pokémon</q></b> se enfrentan
                 a <b><q>Palworld</q></b> ante un posible plagio.</strong>
         </h1>
-        <div style="text-align: center">
+        <div class="imagen" id="imagen" style="text-align: center">
             <figure>
-                <picture style="display:flex;justify-content: center;">
+                <picture style="display:flex; justify-content: center">
                     <source media="(max-width: 799px)" srcset="../images/Pokemon400px.jpg">
                     <source media="(min-width: 800px)" srcset="../images/Pokemon800px.jpg">
                     <img src="../images/Pokemon800px.jpg" alt="Diferencia entre Pokémon y Palworld" />
@@ -32,8 +32,10 @@
             Los parecidos innegables entre las criaturas de 'Palworld' y la fauna de 'Pokémon'
             inicia un ciclo de acusaciones y excusas.
         </h3>
-        <h4 style="margin-left: 25px; margin-right: 35px;"><b>Descripción:</b></h4>
-        <p style="margin-left: 25px; margin-right: 35px;">
+        <h4 style="margin-left: 25px; margin-right: 35px;">
+            <b>Descripción:</b>
+        </h4>
+        <p class="descripcion" style="margin-left: 25px; margin-right: 35px;">
             Es el juego más comentado del momento, sin lugar a dudas. Lanzado en acceso anticipado el pasado 19 de enero
             en Steam
             y Xbox (y con presencia en Game Pass),<br> se encaramó a lo más alto de las listas de Steam de forma
@@ -82,7 +84,7 @@
             allowfullscreen>
         </iframe>
         <h4 style="margin-left: 25px; margin-right: 35px;">La respuesta de <cite>The Pokémon Company</cite>: </h4>
-        <p style="margin-left: 25px; margin-right: 35px;">
+        <p class="respuesta" style="margin-left: 25px; margin-right: 35px;">
             <br />Por supuesto, la respuesta de <cite>The Pokémon Company</cite> no se ha hecho esperar. En un
             comunicado publicado en su web, afirman que no han dado
             permisos a ninguna otra compañía para usar sus diseños, y que pretenden <q>investigar y tomar las medidas
@@ -99,9 +101,9 @@
             <br />
             Ahora solo queda esperar a las consecuencias.
         </p>
-        <p>
+        <p class="boton para regresar">
             <a href="../index.html#NoticiaPokemonPalworld">
-                <img style="margin-left: 25px; width: 5%" src="../images/botonInicio.png" alt="Imagen para regresar">
+                <img class="imagen boton para regresar" style="margin-left: 25px; width: 5%" src="../images/botonInicio.png" alt="Imagen para regresar">
             </a>
         </p>
     </div>
