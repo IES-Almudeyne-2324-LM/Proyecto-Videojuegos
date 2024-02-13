@@ -11,18 +11,22 @@
     <link rel="icon" href="./icons/videojuegos.ico" type="image/x-icon">
 </head>
 <body>
-    <figure>
-        <picture style="display:flex;justify-content: center;">
-            <source media="(max-width: 799px)" srcset="images/logo400px.jpg">
-            <source media="(min-width: 800px)" srcset="images/logo800px.jpg">
-            <img src="images/logo400px.jpg" alt="Logo">
-        </picture>
-    </figure>
-    <div style="text-align: center">
-        <h1>THE FUTURE OF GAMING: Noticias sobre el mundo de los Videjuegos</h1>
-    </div>
+    <header id="main-header" class="main-header">
+        <figure>
+            <picture style="display:flex;justify-content: center;">
+                <source media="(max-width: 799px)" srcset="images/logo400px.jpg">
+                <source media="(min-width: 800px)" srcset="images/logo800px.jpg">
+                <img src="images/logo400px.jpg" alt="Logo">
+            </picture>
+        </figure>
+        <div style="text-align: center">
+            <h1>THE FUTURE OF GAMING: Noticias sobre el mundo de los Videjuegos</h1>
+        </div>
+    </header>
+    
     <!--esto para un futuro
-    <div style="text-align: center;">
+    <nav id="main-nav" class="main-nav">
+        <div style="text-align: center;">
         <table>
             <tr>
                 <th><a href="noticias.html">Noticias</a></th>
@@ -32,10 +36,12 @@
                 <th><a href="contacto.html">Contacto</a></th>
             </tr>
         </table>
-    </div>
+        </div>
+    </nav>
     -->
-    <div class="ULTIMAS NOTICIAS" style="text-align:center;">
-        <section id="NoticiaPlaystation">
+    <div class="ULTIMAS NOTICIAS" id="ULTIMAS NOTICIAS" style="text-align:center;">
+        
+        <div class="NoticiaPlaystation" id="NoticiaPlaystation">
             <a href="./articles/NoticiaPlaystation.html" style="text-decoration: none; color: black;"><h2>Un nuevo hackeo a Playstation revela los planes de la compañia hasta 2027, mencionando tres de los juegos más esperados por los fans</h2></a>
             <a href="./articles/NoticiaPlaystation.html">
                 <figure>
@@ -53,8 +59,9 @@
             <a href="./articles/NoticiaPlaystation.html" style="text-decoration: none; color: blue;">
                 <p style="text-align: center;">Leer más...</p>
             </a>
-        </section>
-        <section id="NoticiaPokemonPalword">
+        </div>
+
+        <div class="NoticiaPokemonPalword" id="NoticiaPokemonPalword">
             <a href="articles/NoticiaPokemonPalword.html" style="text-decoration: none; color: black;"> <h2>Los creadores de <b><cite>Pokémon</cite></b> se enfrentan a <b><q>Palworld</q></b> ante un posible plagio</h2>  </a>
             <a href="articles/NoticiaPokemonPalword.html"> 
                 <figure>
@@ -66,18 +73,16 @@
                 </figure>
             </a>          
             <h3><b>Descripción:</b></h3>
-    
             <p><strong> <a href="articles/NoticiaPokemonPalword.html" style="text-decoration: none; color: black;">La noticia trata sobre la controversia entre los creadores</a>
             de <a href="https://www.pocketpair.jp/palworld">Palworld</a> y los creadores 
             de <a href="https://www.pokemon.com/el">Pokémon</a> debido a posibles similitudes 
             y plagio.</strong></p>
             <a href="./articles/NoticiaPokemonPalword.html" style="text-decoration: none; color: blue;">
                 <p style="text-align: center;">Leer más...</p>
-            </a>
-                  
-        </section>
+            </a>     
+        </div>
         
-        <section id="NoticiaSteam">
+        <div class="NoticiaSteam" id="NoticiaSteam">
             <a href="articles/NoticiaSteam.html" style="text-decoration: none; color: black;"><h2>Steam abandona oficialmente las versiones más antiguas de Windows</h2></a>
             <a href="articles/NoticiaSteam.html"> 
                 <figure>
@@ -94,7 +99,7 @@
                 de Steam.</strong>
             </p>
             <a href="./articles/NoticiaSteam.html" style="text-decoration: none; color: blue;"><p style="text-align: center;">Leer más...</p></a>
-        </section>
+        </div>
     </div>
     </body>
 </html>
