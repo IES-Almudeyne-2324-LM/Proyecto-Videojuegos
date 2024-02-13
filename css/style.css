@@ -3,8 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
 }
-
-header {
+#main header {
     background-color: #333;
     color: #fff;
     text-align: center;
