@@ -8,7 +8,7 @@ body {
 }
 
 nav {
-    background: #80c070;
+    background: #000000;
     padding: 10px 0px;
     width: 100%;
     position: fixed;
@@ -16,12 +16,11 @@ nav {
     z-index: 999999;
     justify-content: center;
     align-items: flex-start;
+    display: flex;
     
 }
 
 #header-title {
-    animation: neon 2s infinite alternate;
-    font-family: NEON____;
     font-size: 20px;
     position: relative;
     top: 20px;
@@ -49,29 +48,60 @@ main {
     outline: 20px solid #070707d6;
 }
 
-.boton_animacion {
-color: #5d00ff;
-border: 2px solid rgb(216, 2, 134);
-border-radius: 0px;
-padding: 18px 36px;
-display: inline-block;
-font-family: "Lucida Console", Monaco, monospace;
-font-size: 14px;
-letter-spacing: 1px;
-cursor: pointer;
-box-shadow: inset 0 0 0 0 #D80286;
--webkit-transition: ease-out 0.4s;
--moz-transition: ease-out 0.4s;
-transition: ease-out 0.4s;
-}
-
-.animacion_contraer:hover {
-box-shadow: inset 0 0 0 50px #D80286;
-}
 
 #outer {
 width: 50%;
 margin: auto;
 text-align: center;
 display: flex;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  -webkit-transform: translateY(-0.25em);
+          transform: translateY(-0.25em);
+}
+
+
+
+.raise {
+  --color: #ffa260;
+  --hover: #e5ff60;
+}
+
+button {
+  color: var(--color);
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+button:hover, button:focus {
+  border-color: var(--hover);
+  color: #fff;
+}
+
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+}
+
+code {
+  color: #e4cb58;
+  font: inherit;
 }
