@@ -1,5 +1,7 @@
+p {margin: 16px auto; text-align: center;}
+
 body {
-    background: url(../images/Fondo.jpg) fixed;
+    background: url(../Fondos/Fondo1.jpg) fixed;
     background-size: cover;
     background-position: center;
     color: #ededed;
@@ -9,7 +11,7 @@ body {
 
 nav {
     background: #000000;
-    padding: 10px 0px;
+    padding: 0px 0px;
     width: 100%;
     position: fixed;
     margin-top: -42px;
@@ -46,14 +48,6 @@ main {
     text-align: center;
     border: 1px solid #252525;
     outline: 20px solid #070707d6;
-}
-
-
-#outer {
-width: 50%;
-margin: auto;
-text-align: center;
-display: flex;
 }
 
 @-webkit-keyframes pulse {
@@ -104,4 +98,9 @@ button {
 code {
   color: #e4cb58;
   font: inherit;
+}
+
+picture {
+    margin: 25px 15px;
+    float: center;
 }
