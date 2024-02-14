@@ -1,5 +1,7 @@
 p {margin: 16px auto; text-align: center;}
 
+a {text-decoration: none;}
+
 body {
     background: url(../Fondos/Fondo1.jpg) fixed;
     background-size: cover;
@@ -101,6 +103,11 @@ code {
 }
 
 picture {
-    margin: 25px 15px;
-    float: center;
+  margin: 25px 15px;
+  float: center;
+}
+
+iframe{
+  display: block;
+  margin: 0 auto;
 }

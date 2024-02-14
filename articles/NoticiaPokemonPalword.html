@@ -12,31 +12,33 @@
     <meta name="author" content="Estíbaliz Cortés García">
     <meta name="description" content="Los creadores de Pokémon se enfrentan a Palworld ante un posible plagio">
     <link rel="icon" href="../icons/videojuegos.ico" type="image/x-icon">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
-<body style="margin-left: 25px; margin-right: 35px;">
+<body>
     <nav>
-        <a class="button" href="../index.html">Inicio</a>
-        <a class="button" href="../index.html#seccionVideojuegos">Volver atrás</a>
-    </nav>
-    <header class="cabecera">
-        <div id="cabecera">
-            <h1><strong>Los creadores de <b><q>Pokémon</q></b> se enfrentan
-                    a <b><q>Palworld</q></b> ante un posible plagio.</strong></h1>
+        <div class="buttons">
+            <button class="raise"><a href="../index.html">Inicio</a></button>
+            <button class="raise"><a href="../index.html#seccionVideojuegos">Videojuegos</a></button>
+            <button class="raise"><a href="../index.html#seccionPlataformas">Plataformas</a></button>
+            <button class="raise"><a href="../index.html#seccionEstrategia">Estrategia</a></button>
+            <button class="raise"><a href="../index.html">Formulario</a></button>
         </div>
-        <div id="imgcab">
-            <picture style="justify-content: center">
-                <source media="(max-width: 799px)" srcset="../images/pokemon400px.jpg"
-                    style="width: 80%; display: block; margin: 0 auto;">
-                <source media="(min-width: 800px)" srcset="../images/pokemon800px.jpg"
-                    style="width: 80%; display: block; margin: 0 auto;">
-                <img src="../images/pokemon400px.jpg" alt="Diferencia entre Pokémon y Palworld"
-                    style="width: 80%; display: block; margin: 0 auto;" />
+    </nav>
+    <header>
+        <div id="header-title"><h1><strong>Los creadores de <b><q>Pokémon</q></b> se enfrentan
+            a <b><q>Palworld</q></b> ante un posible plagio.</strong></h1>
+    </div>
+    </header>
+    <main>
+        <div>
+            <picture>
+                <source media="(max-width: 799px)" srcset="../images/pokemon400px.jpg">
+                <source media="(min-width: 800px)" srcset="../images/pokemon800px.jpg">
+                <img src="../images/pokemon400px.jpg" alt="Diferencia entre Pokémon y Palworld">
             </picture>
         </div>
-    </header>
-    <main class="NoticiaTombRaider">
-        <div id="main-content" class="main-content">
+        <div>
             <h3>
                 Los parecidos innegables entre las criaturas de 'Palworld' y la fauna de 'Pokémon'
                 inicia un ciclo de acusaciones y excusas.
@@ -44,7 +46,7 @@
             <h4>
                 <b>Descripción:</b>
             </h4>
-            <p class="description">
+            <p>
                 Es el juego más comentado del momento, sin lugar a dudas. Lanzado en acceso anticipado el pasado 19 de
                 enero
                 en Steam
@@ -99,12 +101,13 @@
                 reconoció que se había usado <b>inteligencia artificial generativa</b> para los diseños, y de ahí podían
                 venir las coincidencias.<br /><br /><br />
             </p>
+
             <iframe width="875" height="492" src="https://www.youtube.com/embed/f_YMqpdVn88"
                 title="La CONTROVERSIA con PALWORLD y POKEMON" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen 
-                style="display: block; margin: 0 auto;">
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture; web-share"allowfullscreen>
             </iframe>
+            
             <h4>La respuesta de <cite>The Pokémon Company</cite>: </h4>
             <p class="respuesta" style="margin-left: 25px; margin-right: 35px;">
                 <br />Por supuesto, la respuesta de <cite>The Pokémon Company</cite> no se ha hecho esperar. En un
