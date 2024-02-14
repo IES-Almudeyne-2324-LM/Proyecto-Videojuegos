@@ -1,17 +1,52 @@
 body {
-    height: 100%;    
+    background: url(../images/Fondo.jpg) fixed;
+    background-size: cover;
+    background-position: center;
+    color: #ededed;
+    margin: 0px 0px 35px 0px;
+    width: 100%;   
 }
 
 nav {
     background: #80c070;
+    padding: 10px 0px;
+    width: 100%;
+    position: fixed;
+    margin-top: -42px;
+    z-index: 999999;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+
+#header-title {
+    animation: neon 2s infinite alternate;
+    font-family: NEON____;
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    margin: auto;
 }
 
 header {
-    background: #FFF;
+    margin-top: 40px;
+    height: 450px;
+    text-align: center;
+    display: flex;
+}
+
+article {
+    overflow: hidden;
+    border-bottom: 1px solid #2a2a2a;
 }
 
 main {
-    background: #80c070;
+    max-width: 900px;
+    margin: auto;
+    background: #0e0e0edb;
+    text-align: center;
+    border: 1px solid #252525;
+    outline: 20px solid #070707d6;
 }
 
 .boton_animacion {
@@ -39,5 +74,4 @@ width: 50%;
 margin: auto;
 text-align: center;
 display: flex;
-
 }
