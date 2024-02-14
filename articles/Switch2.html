@@ -12,26 +12,37 @@
     <meta name="description"
         content="Nuevo producto de nintendo, Switch 2 que llegará con un nuevo diseño y mejoras.">
     <link rel="icon" href="../icons/videojuegos.ico" type="image/x-icon">
-    <link href="./css/style.css" rel="stylesheet" type="text/css">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-    <div style="margin-left: 25px; margin-right: 35px; text-align: center;">
+    <nav>
+        <div class="buttons">
+            <button class="raise"><a href="index.html">Inicio</a></button>
+            <button class="raise"><a href="index.html#seccionVideojuegos">Videojuegos</a></button>
+            <button class="raise"><a href="index.html#seccionPlataformas">Plataformas</a></button>
+            <button class="raise"><a href="index.html#seccionEstrategia">Estrategia</a></button>
+            <button class="raise"><a href="index.html">Formulario</a></button>
+        </div>
+</nav>
+    <header>
+    <div id="header-title">
         <h1>
             Nintendo Switch 2 en camino
         </h1>
     </div>
-    <div style="text-align: center">
+</header>
+<main>
+    <article>
+    <div>
         <figure>
-            <picture style="display:flex;justify-content: center;">
-                <!--<source media="(max-width: 799px)" srcset="../images/">
-                <source media="(min-width: 800px)" srcset="../images/">-->
+            <picture>
                 <img src="../images/nintendoSwitch2.jpeg" alt="Imagen Switch2">
             </picture>
         </figure>
     </div>
     
-    <div style="margin-left: 25px; margin-right: 35px; display: inline-block;">
+    <div>
 
         <h4><b>Descripción:</b></h4>
         <p>
@@ -70,11 +81,9 @@
             consola llegue al mercado en la segunda mitad de 2024.
         </p>
 
-        <div style="text-align: center">
+        <div>
             <figure>
-                <picture style="display:flex;justify-content: center;">
-                <!--<source media="(max-width: 799px)" srcset="../images/">
-                    <source media="(min-width: 800px)" srcset="../images/">-->
+                <picture>
                     <img src="../images/nintendoSwitch.jpg" alt="Imagen Switch normal">
                 </picture>
             </figure>
@@ -96,10 +105,10 @@
 
       <p>
         <a href="../index.html#NoticiaPlaystation">
-            <img style="margin-left: 25px; width: 5%" src="../images/botonInicio.png" alt="Imagen para regresar">
+            <img class="ImgBack" src="../images/botonInicio.png" alt="Imagen para regresar">
         </a>
     </p>
-    <footer style="background-color: lightgray; text-align: center; padding: 10px;">
+    <footer>
         <p>
             Alumno1: Jorge Carrasco Arnaz<br>
             Alumno2: David Galán Valle<br>  
@@ -108,6 +117,8 @@
             Curso: 2023-2024
         </p>
     </footer>
+</article>
+</main>
 </body>
 
 </html>
