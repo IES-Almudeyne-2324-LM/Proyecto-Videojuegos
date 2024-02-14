@@ -1,6 +1,6 @@
 p {margin: 16px auto; text-align: center;}
 
-a {text-decoration: none;}
+a {text-decoration: none;color: white;}
 
 body {
     background: url(../Fondos/Fondo1.jpg) fixed;
@@ -38,18 +38,34 @@ header {
     display: flex;
 }
 
-#article1 {
-    overflow: hidden;
-    border-bottom: 1px solid #2a2a2a;
-}
-#article2 {
+.section1{
   overflow: hidden;
-  border-bottom: 1px solid #2600ff;
+  background-color: #ff0cce ;
 }
 
-#article3 {
+.section2{
   overflow: hidden;
-  border-bottom: 1px solid #ffa600;
+  background-color: #769011 ;
+}
+
+.section3{
+  overflow: hidden;
+  background-color: #f2250f ;
+}
+
+
+.article1 {
+    overflow: hidden;
+    background-color: #645bda ;
+}
+.article2 {
+  overflow: hidden;
+  background-color: #20bede ;
+}
+
+.article3 {
+  overflow: hidden;
+  background-color: #31e83e ;
 }
 
 main {

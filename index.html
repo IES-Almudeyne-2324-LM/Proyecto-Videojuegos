@@ -13,7 +13,7 @@
 </head>
 <body>
     <nav>
-            <div class="buttons">
+            <div>
                 <button class="raise"><a href="index.html">Inicio</a></button>
                 <button class="raise"><a href="index.html#seccionVideojuegos">Videojuegos</a></button>
                 <button class="raise"><a href="index.html#seccionPlataformas">Plataformas</a></button>
@@ -29,19 +29,19 @@
     </header>
 
     <main>
-        <section id="seccionVideojuegos">
+        <section id="seccionVideojuegos" class="section1">
 
             <div class="categoria">
                 <h1>Noticias de Videojuegos</h1>
             </div>
-            <div>
-                <h2>
-                    <a href="articles/NoticiaPokemonPalword.html">Los creadores de <b><cite>Pokémon</cite></b> se enfrentan a <b><q>Palworld</q></b> ante un
-                        posible plagio</a>
-                </h2>
-            </div>
 
-            <article>
+            <article class="article1">
+                <div>
+                    <h2>
+                        <a href="articles/NoticiaPokemonPalword.html">Los creadores de <b><cite>Pokémon</cite></b> se enfrentan a <b><q>Palworld</q></b> ante un
+                            posible plagio</a>
+                    </h2>
+                </div>
                 <div>
                     <a href="articles/NoticiaPokemonPalword.html">
                         <picture>
@@ -64,7 +64,7 @@
                 
             </article>
             
-            <article>
+            <article class="article2">
                 <div>
                     <h2>
                         <a href="articles/NoticiaTombRaider.html">Comparativa gráfica <cite>Tomb Raider 1-3 Resmastered</cite> VS <cite>el original</cite>:
@@ -92,14 +92,37 @@
                 </div>
             </article>
 
+            <article class="article3">
+                
+                <div>
+                    <a href="./articles/Fifa.html">
+                        <h2>EA FC 24 Evolución Defensas de la Academia de Futuras Estrellas: requisitos, mejoras, desafíos y mejores jugadores</h2>
+                    </a>
+                    <a href="./articles/Fifa.html">
+                        <figure>
+                            <picture>
+                                <img src="images/fifa.jpg" alt="Imagen noticia switch2">
+                            </picture>
+                        </figure>
+                    </a>
+                    <h3>Descripción: </h3>
+                    <p>Ya está disponible una nueva promo con evoluciones en EA Sports FC 24, que premia a las mejores jóvenes 
+                        promesas en las demarcaciones defensivas de Ultimate Team.
+                    </p>
+                    <a href="./articles/Fifa.html">
+                        <p>Leer más...</p>
+                    </a>
+                </div>
+            </article>
+
         </section>
 
-        <section id="seccionPlataformas">
+        <section id="seccionPlataformas" class="section2">
 
             <div>
                 <h1>Noticias de Plataformas</h1>
             </div>
-            <article>
+            <article class="article1">
 
                 <div>
                     <a href="./articles/NoticiaPlaystation.html">
@@ -126,7 +149,7 @@
                 </div>
             </article>
 
-            <article>
+            <article class="article2">
                 
                 <div>
                     <a href="./articles/Switch2.html">
@@ -140,8 +163,7 @@
                         </figure>
                     </a>
                     <h3>Descripción: </h3>
-                    <p>Descripción:
-                        Nintendo, la gigante japonesa de los videojuegos, está preparando el lanzamiento de su próxima consola 
+                    <p>Nintendo, la gigante japonesa de los videojuegos, está preparando el lanzamiento de su próxima consola 
                         de nueva generación, la Nintendo Switch 2. Aunque la compañía ha mantenido un silencio oficial sobre el 
                         tema, los rumores y las filtraciones han comenzado a dar forma a lo que podemos esperar de este nuevo dispositivo.
                     </p>
@@ -151,7 +173,61 @@
                 </div>
             </article>
 
-            <article>
+            <article class="article3">
+                <div>
+                    <a href="./articles/xbox.html">
+                        <h2>Microsoft prepara una actualización para Xbox Series X|S que acelera las descargas en segundo plano, 
+                            y ya está disponible para insiders</h2>
+                    </a>
+                    <a href="./articles/xbox.html">
+                        <figure>
+                            <picture>
+                                <img src="images/xbox.jpg" alt="Imagen noticia xbox">
+                            </picture>
+                        </figure>
+                    </a>
+                    <h3>Descripción: </h3>
+                    <p>Los usuarios del programa Alpha Skip-Ahead de Xbox Insider ya pueden probar una nueva versión del firmware 
+                        en Xbox Series X|S. Estas son sus principales novedades.
+                    </p>
+                    <a href="./articles/xbox.html">
+                        <p>Leer más...</p>
+                    </a>
+                </div>
+            </article>
+
+        </section>
+
+        <section id="seccionVarios" class="section3">
+
+            <div>
+                <h1>Noticias Varias</h1>
+            </div>
+
+            <article class="article1">
+                <div>
+                    <a href="articles/NoticiaSteam.html">
+                        <h2>Steam abandona oficialmente las versiones más antiguas de Windows</h2>
+                    </a>
+                    <a href="articles/NoticiaSteam.html">
+                        <figure>
+                            <picture>
+                                <img src="images/SteamWindows400px.jpg" alt="Imagen noticia 3 (David Galán)">
+                            </picture>
+                        </figure>
+                    </a>
+                    <h3>Descripción:</h3>
+                    <p>Steam ha dejado de soportar Windows 7, Windows 8 y Windows 8.1 desde el 1 de enero, lo que significa
+                        que los usuarios con estas versiones ya no recibirán actualizaciones ni soporte técnico por parte
+                        de Steam.
+                    </p>
+                    <a href="./articles/NoticiaSteam.html">
+                        <p>Leer más...</p>
+                    </a>
+                </div>
+            </article>
+
+            <article class="article2">
                 <div>
                     <h2>
                         <a href="articles/NoticiaSpiderman.html">
@@ -178,32 +254,24 @@
                 </div>
             </article>
 
-        </section>
-
-        <section id="seccionVarios">
-
-            <div>
-                <h1>Noticias Varias</h1>
-            </div>
-
-            <article>
+            <article class="article3">
                 <div>
-                    <a href="articles/NoticiaSteam.html">
-                        <h2>Steam abandona oficialmente las versiones más antiguas de Windows</h2>
+                    <a href="./articles/InversionDisney.html">
+                        <h2>Microsoft prepara una actualización para Xbox Series X|S que acelera las descargas en segundo plano, 
+                            y ya está disponible para insiders</h2>
                     </a>
-                    <a href="articles/NoticiaSteam.html">
+                    <a href="./articles/InversionDisney.html">
                         <figure>
                             <picture>
-                                <img src="images/SteamWindows400px.jpg" alt="Imagen noticia 3 (David Galán)">
+                                <img src="images/disney.jpg" alt="Imagen noticia de la inversion de Disney">
                             </picture>
                         </figure>
                     </a>
-                    <h3>Descripción:</h3>
-                    <p>Steam ha dejado de soportar Windows 7, Windows 8 y Windows 8.1 desde el 1 de enero, lo que significa
-                        que los usuarios con estas versiones ya no recibirán actualizaciones ni soporte técnico por parte
-                        de Steam.
+                    <h3>Descripción: </h3>
+                    <p>Los usuarios del programa Alpha Skip-Ahead de Xbox Insider ya pueden probar una nueva versión del firmware 
+                        en Xbox Series X|S. Estas son sus principales novedades.
                     </p>
-                    <a href="./articles/NoticiaSteam.html">
+                    <a href="./articles/InversionDisney.html">
                         <p>Leer más...</p>
                     </a>
                 </div>
