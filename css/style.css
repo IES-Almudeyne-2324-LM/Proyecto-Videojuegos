@@ -137,8 +137,16 @@ iframe{
   margin: 0 auto;
 }
 
-footer {
+.footer1 {
   background-color: purple;
+}
+
+.footer2 {
+  background-color: rgb(67, 0, 250);
+}
+
+.footer3 {
+  background-color: rgb(37, 126, 1);
 }
 
 .ImgBack {
