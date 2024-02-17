@@ -1,14 +1,20 @@
-p {margin: 16px auto; text-align: center;}
+p {
+  margin: 16px auto;
+  text-align: center;
+}
 
-a {text-decoration: none;color: white;}
+a {
+  text-decoration: none;
+  color: white;
+}
 
 body {
-    background: url(../Fondos/Fondo1.jpg) fixed;
-    background-size: cover;
-    background-position: center;
-    color: #ededed;
-    margin: 0px 0px 35px 0px;
-    width: 100%;   
+  background: url(../Fondos/Fondo1.jpg) fixed;
+  background-size: cover;
+  background-position: center;
+  color: #ededed;
+  margin: 0px 0px 35px 0px;
+  width: 100%;
 }
 
 nav {
@@ -20,17 +26,17 @@ nav {
 }
 
 #header-title {
-    font-size: 20px;
-    position: relative;
-    top: 20px;
-    margin: auto;
+  font-size: 20px;
+  position: relative;
+  top: 20px;
+  margin: auto;
 }
 
 header {
-    margin-top: 40px;
-    height: 450px;
-    text-align: center;
-    display: flex;
+  margin-top: 40px;
+  height: 450px;
+  text-align: center;
+  display: flex;
 }
 
 .section1 {
@@ -39,39 +45,39 @@ header {
 }
 
 .section2 {
-  background-color: #d619b3; 
+  background-color: #d619b3;
   color: #ffffff;
 }
 
 .section3 {
   background-color: #6d00fc;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .article1 {
   background-color: #6699cc;
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .article2 {
-  background-color: #3366cc; 
+  background-color: #3366cc;
   color: #333333;
 }
 
 .article3 {
-  background-color: #003366; 
+  background-color: #003366;
   color: #ffffff;
 }
 
 main {
-    max-width: 900px;
-    margin: auto;
-    background: #0e0e0edb;
-    text-align: center;
-    border: 1px solid #252525;
-    outline: 20px solid #070707d6;
+  max-width: 900px;
+  margin: auto;
+  background: #0e0e0edb;
+  text-align: center;
+  border: 1px solid #252525;
+  outline: 20px solid #070707d6;
+  width: 80%;
 }
-
 
 .button {
   display: inline-block;
@@ -88,9 +94,8 @@ main {
   color: #ffffff;
   text-decoration: none;
 }
-.button:hover,
-.button:active,
-.button:focus {
+
+.button:hover,.button:active,.button:focus {
   border: 0px solid #ff0e0e;
   background: #000000;
   background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#d71818));
@@ -110,10 +115,9 @@ figure {
   padding: 0;
 }
 
-picture{
+picture {
   display: flex;
   justify-content: center;
-  
 }
 
 img {
@@ -121,14 +125,14 @@ img {
   width: 500px;
 }
 
-iframe{
+iframe {
   display: block;
   margin: 0 auto;
 }
 
 .footer1 {
   background-color: #ffd700;
-  color: #000000 ;
+  color: #000000;
   text-align: center;
 }
 
@@ -155,11 +159,11 @@ table {
   text-align: center;
 }
 
-table, th, td {
+table,th,td {
   border: 1px solid black;
 }
 
-th, td {
+th,td {
   padding: 10px;
   text-align: left;
 }
