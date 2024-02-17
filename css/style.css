@@ -33,34 +33,34 @@ header {
     display: flex;
 }
 
-.section1{
-  overflow: hidden;
-  background-color: #ff0cce ;
+.section1 {
+  color: #333333;
+  background-color: #04ff9b;
 }
 
-.section2{
-  overflow: hidden;
-  background-color: #769011 ;
+.section2 {
+  background-color: #d619b3; 
+  color: #ffffff;
 }
 
-.section3{
-  overflow: hidden;
-  background-color: #f2250f ;
+.section3 {
+  background-color: #6d00fc;
+  color: #ffffff; 
 }
-
 
 .article1 {
-    overflow: hidden;
-    background-color: #645bda ;
+  background-color: #6699cc;
+  color: #ffffff; 
 }
+
 .article2 {
-  overflow: hidden;
-  background-color: #20bede ;
+  background-color: #3366cc; 
+  color: #333333;
 }
 
 .article3 {
-  overflow: hidden;
-  background-color: #31e83e ;
+  background-color: #003366; 
+  color: #ffffff;
 }
 
 main {
@@ -105,6 +105,17 @@ code {
   font: inherit;
 }
 
+figure {
+  margin: 0 auto;
+  padding: 0;
+}
+
+picture{
+  display: flex;
+  justify-content: center;
+  
+}
+
 img {
   max-width: 100%;
   width: 500px;
@@ -116,7 +127,8 @@ iframe{
 }
 
 .footer1 {
-  background-color: purple;
+  background-color: #ffd700;
+  color: #000000 ;
   text-align: center;
 }
 
