@@ -135,3 +135,30 @@ iframe{
   margin-left: 25px;
   width: 10%;
 }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+.img1 {
+  width: 200px;
+  height: 167px;
+}
+
+table td img {
+  display: block;
+  margin: 0 auto;
+}
