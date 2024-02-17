@@ -12,15 +12,11 @@ body {
 }
 
 nav {
-  background-color: #060606;
+  background-color: black;
+  color: white;
   padding: 10px 0px;
-  width: 100%;
-  position: fixed;
-  margin-top: -42px;
-  z-index: 999999;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
+  text-align: center;
+  list-style: none;
 }
 
 #header-title {
@@ -109,9 +105,9 @@ code {
   font: inherit;
 }
 
-picture {
-  margin: 25px 15px;
-  float: center;
+img {
+  max-width: 100%;
+  width: 500px;
 }
 
 iframe{
@@ -121,14 +117,17 @@ iframe{
 
 .footer1 {
   background-color: purple;
+  text-align: center;
 }
 
 .footer2 {
   background-color: rgb(67, 0, 250);
+  text-align: center;
 }
 
 .footer3 {
   background-color: rgb(37, 126, 1);
+  text-align: center;
 }
 
 .ImgBack {
