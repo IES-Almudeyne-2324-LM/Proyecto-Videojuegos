@@ -95,7 +95,9 @@ main {
   text-decoration: none;
 }
 
-.button:hover,.button:active,.button:focus {
+.button:hover,
+.button:active,
+.button:focus {
   border: 0px solid #ff0e0e;
   background: #000000;
   background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#d71818));
@@ -159,11 +161,14 @@ table {
   text-align: center;
 }
 
-table,th,td {
+table,
+th,
+td {
   border: 1px solid black;
 }
 
-th,td {
+th,
+td {
   padding: 10px;
   text-align: left;
 }
@@ -176,4 +181,51 @@ th,td {
 table td img {
   display: block;
   margin: 0 auto;
+}
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button_formulario {
+  padding: 10px 20px;
+  background-color: #005b05;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button_formulario:hover {
+  background-color: #005b05;
+}
+
+fieldset legend {
+  color: black;
+  font-style: normal;
+  font-weight: bold;
 }

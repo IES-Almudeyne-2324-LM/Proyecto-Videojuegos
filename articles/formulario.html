@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="">
+    <meta name="robots" content="all">
+    <title>Formulario de Contacto</title>
+    <meta name="author" content="Estíbaliz Cortés García">
+    <meta name="description" content="Pagina web de Formulario">
+    <link rel="icon" href="../icons/videojuegos.ico" type="image/x-icon">
+    <link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <nav>
+        <div>
+            <a class="button" href="../index.html">Inicio</a>
+            <a class="button" href="../index.html#seccionVideojuegos">Videojuegos</a>
+            <a class="button" href="../index.html#seccionPlataformas">Plataformas</a>
+            <a class="button" href="../index.html#seccionVarios">Varios</a>
+            <a class="button" href="./formulario.html">Formulario</a>
+        </div>
+    </nav>
+    <header>
+        <div id="header-title">
+            <h1>
+                <strong>FORMULARIO</strong>
+            </h1>
+        </div>
+    </header>
+    <main>
+        <article>
+            <form action="mailto:cortesgarciaestibaliz@gmail.com" method="post" enctype="text/plain">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required> <br><br>
+                <label for="nombre">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required> <br><br>
+                <label for="nombre">Fecha de nacimiento:</label><br>
+                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required> <br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required> <br><br>
+                <label for="telefono">Teléfono:</label>
+                <input type="number" id="telefono" name="telefono"> <br><br>
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea> <br><br>
+                <label for="motivo">Motivo de contacto:</label>
+                <select id="motivo" name="motivo">
+                    <option value="consulta">Consulta</option>
+                    <option value="sugerencia">Sugerencia</option>
+                    <option value="reclamaciones">Reclamaciones</option> <br><br>
+                </select>
+                <fieldset>
+                    <legend>Preferencias de contacto:</legend>
+                    <label><input type="checkbox" name="preferencias" value="email"> Email</label>
+                    <label><input type="checkbox" name="preferencias" value="telefono"> Teléfono</label>
+                    <label><input type="checkbox" name="preferencias" value="whatsapp"> WhatsApp</label><br><br>
+                </fieldset>
+                <fieldset>
+                    <legend>Genero: </legend>
+                    <label><input type="radio" name="sexo" value="masculino"> Masculino</label>
+                    <label><input type="radio" name="sexo" value="femenino"> Femenino</label>
+                    <label><input type="radio" name="sexo" value="otro"> Otro</label> <br><br>
+                </fieldset>
+                <button_formulario type="reset">Restablecer</button_formulario>
+                <button_formulario type="submit">Enviar</button_formulario>
+            </form>
+            <div>
+                <p>
+                    <a href="../index.html#NoticiaPlaystation">
+                        <img class="ImgBack" src="../images/botonInicio.png" alt="Imagen para regresar">
+                    </a>
+                </p>
+            </div>
+        </article>
+        <footer class="footer1">
+            <p>
+                Alumno1: Jorge Carrasco Arnaz<br>
+                Alumno2: David Galán Valle<br>
+                Alumno3: Estíbaliz Cortés García<br>
+                Asignatura: Lenguajes de marcas<br>
+                Curso: 2023-2024
+            </p>
+        </footer>
+    </main>
+</body>
+
+</html>
