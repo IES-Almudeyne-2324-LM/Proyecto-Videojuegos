@@ -15,6 +15,7 @@
 </head>
 
 <body>
+
     <nav>
         <div>
             <a class="button" href="../index.html">Inicio</a>
@@ -24,6 +25,7 @@
             <a class="button" href="./formulario.html">Formulario</a>
         </div>
     </nav>
+
     <header>
         <div id="header-title">
             <h1>
@@ -31,49 +33,76 @@
             </h1>
         </div>
     </header>
+
     <main>
         <article>
+            <h2>Por favor introduzca sus datos: </h2>
             <form action="mailto:cortesgarciaestibaliz@gmail.com" method="post" enctype="text/plain">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required> <br><br>
-                <label for="nombre">Apellidos:</label>
-                <input type="text" id="nombre" name="nombre" required> <br><br>
-                <label for="nombre">Dirección</label>
-                <input type="text" id="nombre" name="nombre" required> <br><br>
-                <label for="nombre">Piso</label>
-                <input type="text" id="nombre" name="nombre" required> <br><br>
-                <label for="nombre">Número</label>
-                <input type="text" id="nombre" name="nombre" required> <br><br>
-                <label for="nombre">Código Postal</label>
-                <input type="text" id="apellidos" name="apellidos" required> <br><br>
-                <label for="nombre">Fecha de nacimiento:</label><br>
-                <input type="date" id="fechaNacimiento" name="fechaNacimiento" required> <br><br>
+
+                <label for="Nombre">Nombre:</label>
+                <input type="text" id="Nombre" name="Nombre" required> <br><br>
+
+                <label for="Apellidos">Apellidos:</label>
+                <input type="text" id="Apellidos" name="Apellidos" required> <br><br>
+
+                <label for="Pais">Pais:</label>
+                <input type="text" id="Pais" name="Pais"> <br><br>
+
+                <label for="Cuidad">Cuidad:</label>
+                <input type="text" id="Cuidad" name="Cuidad"> <br><br>
+
+                <label for="Dirección">Dirección</label>
+                <input type="text" id="Dirección" name="Dirección" required> <br><br>
+
+                <label for="Piso">Piso</label>
+                <input type="text" id="Piso" name="Piso"> <br><br>
+
+                <label for="Número">Número</label>
+                <input type="number" id="Número" name="Número" required> <br><br>
+
+                <label for="codigo">Código Postal</label>
+                <input type="text" id="codigo" name="codigo" required> <br><br>
+
+                <label for="nacimiento">Fecha de nacimiento:</label><br>
+                <input type="date" id="nacimiento" name="nacimiento" required> <br><br>
+
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required> <br><br>
+
                 <label for="telefono">Teléfono:</label>
-                <input type="number" id="telefono" name="telefono"> <br><br>
+                <input type="number" id="telefono" name="telefono" required> <br><br>
+
                 <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea> <br><br>
+                <textarea id="mensaje" name="mensaje" rows="4"></textarea> <br><br>
+
                 <label for="motivo">Motivo de contacto:</label>
                 <select id="motivo" name="motivo">
                     <option value="consulta">Consulta</option>
                     <option value="sugerencia">Sugerencia</option>
-                    <option value="reclamaciones">Reclamaciones</option> <br><br>
+                    <option value="reclamaciones">Reclamaciones</option>
                 </select>
+
                 <fieldset>
                     <legend>Preferencias de contacto:</legend>
                     <label><input type="checkbox" name="preferencias" value="email"> Email</label>
                     <label><input type="checkbox" name="preferencias" value="telefono"> Teléfono</label>
                     <label><input type="checkbox" name="preferencias" value="whatsapp"> WhatsApp</label><br><br>
                 </fieldset>
+
                 <fieldset>
                     <legend>Genero: </legend>
                     <label><input type="radio" name="sexo" value="masculino"> Masculino</label>
                     <label><input type="radio" name="sexo" value="femenino"> Femenino</label>
                     <label><input type="radio" name="sexo" value="otro"> Otro</label> <br><br>
                 </fieldset>
-                <button_formulario type="reset">Restablecer</button_formulario>
-                <button_formulario type="submit">Enviar</button_formulario>
+
+                <fieldset>
+                    <legend>¿Acepta los terminos y servicios?</legend>
+                    <label><input type="checkbox" name="terminos" value="whatsapp" required> Si</label><br><br>
+                </fieldset>
+
+                <button class="formulario" type="reset">Restablecer</button>
+                <button class="formulario" type="submit">Enviar</button>
             </form>
             <div>
                 <p>

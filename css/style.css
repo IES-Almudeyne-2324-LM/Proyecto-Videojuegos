@@ -127,8 +127,11 @@ img {
 }
 
 iframe {
-  display: block;
-  margin: 0 auto;
+  border: 0px;
+  max-width: 90%;
+  width: 875px;
+  max-height: 90%;
+  height: 300px;
 }
 
 .footer1 {
@@ -210,7 +213,7 @@ select {
   box-sizing: border-box;
 }
 
-button_formulario {
+.formulario {
   padding: 10px 20px;
   background-color: #005b05;
   color: black;
@@ -219,7 +222,7 @@ button_formulario {
   cursor: pointer;
 }
 
-button_formulario:hover {
+.formulario:hover {
   background-color: #005b05;
 }
 
